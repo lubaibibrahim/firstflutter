@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 class ScreenLogin extends StatelessWidget {
   ScreenLogin({Key? key}) : super(key: key);
 
-  final _usernameController :TextEditingController();
-  final _passwordController :TextEditingController();
+  static const routeName="/login";
+  // final _usernameController :TextEditingController();
+  // final _passwordController :TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -38,11 +39,11 @@ class ScreenLogin extends StatelessWidget {
 
   void CheckLogin(){
 
-    final username=_usernameController.toString();
-    final password=_passwordController.toString();
-    if(password.isNotEmpty){
-
-    }
+    // final username=_usernameController.toString();
+    // final password=_passwordController.toString();
+    // if(password.isNotEmpty){
+    //
+    // }
 
   }
 }
